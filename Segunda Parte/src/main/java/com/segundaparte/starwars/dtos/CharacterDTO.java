@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class CharacterDTO {
     private String name;
-    private int height;
-    private int mass;
+    private String height;
+    private String mass;
     private String hair_color;
     private String skin_color;
     private String eye_color;
